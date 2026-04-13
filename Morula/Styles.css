@@ -1,0 +1,267 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #f8b400; /* A warm yellow tone */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    float:inline-start;
+
+}
+
+.navbar a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #e1a200; /* A darker yellow tone for hover effect */
+}
+.popupMenu {
+    display: block;
+    position: relative;
+    margin-left:50%;
+    margin-top:70px;
+    background-color: #272626;
+    width: 20%;
+    height:auto;
+    z-index: 4;
+  }
+  
+  .popupMenu a {
+    display: block;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+  
+  .popupMenu a:hover {
+    background-color: #ddd;
+    color: rgb(177, 175, 175);
+  }
+  
+  .popupMenu .closebtn {
+    float: left;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+/* Style the search container */
+.search-container {
+    position: sticky;
+    right: 20px;
+    margin-top: 70px;
+    transform: translateY(-50%);
+}
+
+.search-container input, .search-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-container button {
+    background-color: #e1a200;
+    color: white;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #c88e00;
+}
+
+/* Style the main content */
+main {
+    padding: 50px;
+    background-color: rgb(36, 32, 32);
+    min-height: calc(100% - 160px); /* Adjust based on header and footer height */
+}
+/* Add this CSS to your Styles.css file or within a <style> tag in your HTML file */
+body {
+    /* Gradient background */
+    background: linear-gradient(135deg, #7f5a83, #0d324d);
+    
+    /* Full cover background */
+    background-size: cover;
+    
+    /* Fixed background */
+    background-attachment: fixed;
+    
+    /* No repeat */
+    background-repeat: no-repeat;
+    
+    /* Center the background image */
+    background-position: center center;
+}
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #1f1717;
+    padding: 20px;
+    text-emphasis-color: black;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: #f5f1f1;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#premiumContent.hidden {
+    display: inside;
+    background-color: #fcf9f9;
+    padding: 20px;
+    text-emphasis-color: rgb(230, 226, 226);
+    text-align: left;
+}
+
+
+/* Ensure the <html> element covers the full height */
+html {
+    height: 100%;
+}
+/* Style the banner */
+.banner video.logo {
+    width: 45%;
+    height:150px;
+    float:left;
+    margin-left:-145px;
+    margin-top:-30px;
+}
+
+/*
+element.style {
+}
+.login {
+}**/
+/*
+@media (min-width: 34em) {
+    .login__image {
+        height: 12.5rem;
+    }
+}
+.login {
+    width: 100%;
+    height: 7.8125rem;
+    background-image: url(../img/login-mobile.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure {
+    margin: 0;
+    padding: 0;
+}
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.type--cat, .type--cat-link-bold, .type--cat-bold, .type--cat-link {
+    font-family: "SourceSansPro", Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-underline-offset: .1875rem;
+}
+.login {
+    margin: 0;
+    color: rgba(0, 0, 0, .95);
+}
+.input--text, .input--text-full-width, .input-codes__input, .type--cat-link-bold, .type--cat-bold, .type--cat-link, .type--cat {
+    font-family: "Lato", Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-underline-offset: .1875rem;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "SourceSansPro", Helvetica, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: rgba(0, 0, 0, .95);
+    background: #fff;
+    -webkit-text-size-adjust: 100%;
+}
+*/
+
+
+/* Style the articles */
+.home article {
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.home article:hover {
+    box-shadow: 0 5px 15px rgba(255, 252, 252, 0.966);
+}
+
+.home img {
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+.home h2 {
+    background-color: #f8b400;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.home p {
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
