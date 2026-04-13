@@ -1,0 +1,10 @@
+# Ignore database configuration files containing passwords
+configs/db_config.php
+config.php
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables
+.env
